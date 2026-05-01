@@ -1,1 +1,68 @@
-[]
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "image": "https://i.postimg.cc/example1.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Beach Hat",
+    "brand": "SunnyDays",
+    "price": 12,
+    "rating": 4.5,
+    "stock": 15,
+    "description": "Wide-brim hat for sun protection at the beach.",
+    "image": "https://i.postimg.cc/example2.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 3,
+    "name": "Swim Trunks",
+    "brand": "AquaWear",
+    "price": 25,
+    "rating": 4.8,
+    "stock": 8,
+    "description": "Comfortable and quick-drying swim trunks for pool or beach.",
+    "image": "https://i.postimg.cc/example3.png",
+    "category": "Clothing"
+  },
+  {
+    "id": 4,
+    "name": "Sandals",
+    "brand": "FootEase",
+    "price": 18,
+    "rating": 4.6,
+    "stock": 12,
+    "description": "Lightweight sandals ideal for summer walks and beach activities.",
+    "image": "https://i.postimg.cc/example4.png",
+    "category": "Footwear"
+  },
+  {
+    "id": 5,
+    "name": "Sunscreen Lotion",
+    "brand": "SkinGuard",
+    "price": 10,
+    "rating": 4.9,
+    "stock": 20,
+    "description": "SPF 50 sunscreen lotion for maximum sun protection.",
+    "image": "https://i.postimg.cc/example5.png",
+    "category": "Beauty"
+  },
+  {
+    "id": 6,
+    "name": "Beach Towel",
+    "brand": "CoastalComfort",
+    "price": 20,
+    "rating": 4.4,
+    "stock": 6,
+    "description": "Large, absorbent beach towel with vibrant summer patterns.",
+    "image": "https://i.postimg.cc/example6.png",
+    "category": "Home"
+  }
+]
