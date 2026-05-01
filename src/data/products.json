@@ -7,7 +7,7 @@
     "rating": 4.7,
     "stock": 10,
     "description": "Stylish UV protection sunglasses perfect for summer outings.",
-    "image": "https://i.postimg.cc/example1.png",
+    "image": "https://via.placeholder.com/400x400/87CEEB/FFFFFF?text=Sunglasses",
     "category": "Accessories"
   },
   {
@@ -18,7 +18,7 @@
     "rating": 4.5,
     "stock": 15,
     "description": "Wide-brim hat for sun protection at the beach.",
-    "image": "https://i.postimg.cc/example2.png",
+    "image": "https://via.placeholder.com/400x400/F4A460/FFFFFF?text=Beach+Hat",
     "category": "Accessories"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 4.8,
     "stock": 8,
     "description": "Comfortable and quick-drying swim trunks for pool or beach.",
-    "image": "https://i.postimg.cc/example3.png",
+    "image": "https://via.placeholder.com/400x400/00CED1/FFFFFF?text=Swim+Trunks",
     "category": "Clothing"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 4.6,
     "stock": 12,
     "description": "Lightweight sandals ideal for summer walks and beach activities.",
-    "image": "https://i.postimg.cc/example4.png",
+    "image": "https://via.placeholder.com/400x400/D2691E/FFFFFF?text=Sandals",
     "category": "Footwear"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 4.9,
     "stock": 20,
     "description": "SPF 50 sunscreen lotion for maximum sun protection.",
-    "image": "https://i.postimg.cc/example5.png",
+    "image": "https://via.placeholder.com/400x400/FFD700/000000?text=Sunscreen",
     "category": "Beauty"
   },
   {
@@ -62,7 +62,7 @@
     "rating": 4.4,
     "stock": 6,
     "description": "Large, absorbent beach towel with vibrant summer patterns.",
-    "image": "https://i.postimg.cc/example6.png",
+    "image": "https://via.placeholder.com/400x400/FF6347/FFFFFF?text=Beach+Towel",
     "category": "Home"
   },
   {
@@ -73,7 +73,7 @@
     "rating": 4.3,
     "stock": 25,
     "description": "Comfortable flip flops for casual summer wear.",
-    "image": "https://i.postimg.cc/example7.png",
+    "image": "https://via.placeholder.com/400x400/8B4513/FFFFFF?text=Flip+Flops",
     "category": "Footwear"
   },
   {
@@ -84,7 +84,7 @@
     "rating": 4.6,
     "stock": 5,
     "description": "Stylish bikini set perfect for beach days.",
-    "image": "https://i.postimg.cc/example8.png",
+    "image": "https://via.placeholder.com/400x400/FF69B4/FFFFFF?text=Bikini+Set",
     "category": "Clothing"
   },
   {
@@ -95,7 +95,7 @@
     "rating": 4.5,
     "stock": 18,
     "description": "Elegant sun hat with UV protection.",
-    "image": "https://i.postimg.cc/example9.png",
+    "image": "https://via.placeholder.com/400x400/DAA520/FFFFFF?text=Sun+Hat",
     "category": "Accessories"
   },
   {
@@ -106,7 +106,7 @@
     "rating": 4.7,
     "stock": 9,
     "description": "Battery-powered portable fan for hot days.",
-    "image": "https://i.postimg.cc/example10.png",
+    "image": "https://via.placeholder.com/400x400/87CEEB/FFFFFF?text=Portable+Fan",
     "category": "Electronics"
   },
   {
@@ -117,7 +117,7 @@
     "rating": 4.8,
     "stock": 4,
     "description": "Home ice cream maker for delicious summer treats.",
-    "image": "https://i.postimg.cc/example11.png",
+    "image": "https://via.placeholder.com/400x400/FFE4E1/000000?text=Ice+Cream+Maker",
     "category": "Kitchen"
   },
   {
@@ -128,7 +128,7 @@
     "rating": 4.4,
     "stock": 7,
     "description": "Large beach umbrella for shade and protection.",
-    "image": "https://i.postimg.cc/example12.png",
+    "image": "https://via.placeholder.com/400x400/32CD32/FFFFFF?text=Beach+Umbrella",
     "category": "Outdoor"
   },
   {
@@ -139,7 +139,7 @@
     "rating": 4.2,
     "stock": 30,
     "description": "Protective case for your favorite sunglasses.",
-    "image": "https://i.postimg.cc/example13.png",
+    "image": "https://via.placeholder.com/400x400/C0C0C0/000000?text=Sunglasses+Case",
     "category": "Accessories"
   },
   {
@@ -150,7 +150,7 @@
     "rating": 4.5,
     "stock": 11,
     "description": "Light and airy summer dress for warm weather.",
-    "image": "https://i.postimg.cc/example14.png",
+    "image": "https://via.placeholder.com/400x400/FFB6C1/FFFFFF?text=Summer+Dress",
     "category": "Clothing"
   },
   {
@@ -161,7 +161,7 @@
     "rating": 4.6,
     "stock": 16,
     "description": "Insulated water bottle to stay hydrated in the heat.",
-    "image": "https://i.postimg.cc/example15.png",
+    "image": "https://via.placeholder.com/400x400/00BFFF/FFFFFF?text=Water+Bottle",
     "category": "Sports"
   },
   {
@@ -172,7 +172,7 @@
     "rating": 4.3,
     "stock": 22,
     "description": "Colorful beach ball for outdoor fun.",
-    "image": "https://i.postimg.cc/example16.png",
+    "image": "https://via.placeholder.com/400x400/FF4500/FFFFFF?text=Beach+Ball",
     "category": "Sports"
   },
   {
@@ -183,7 +183,7 @@
     "rating": 4.7,
     "stock": 35,
     "description": "SPF lip balm to protect your lips from sun damage.",
-    "image": "https://i.postimg.cc/example17.png",
+    "image": "https://via.placeholder.com/400x400/FFC0CB/000000?text=Lip+Balm",
     "category": "Beauty"
   },
   {
@@ -194,7 +194,7 @@
     "rating": 4.8,
     "stock": 13,
     "description": "Instant cooling towel for hot weather relief.",
-    "image": "https://i.postimg.cc/example18.png",
+    "image": "https://via.placeholder.com/400x400/40E0D0/FFFFFF?text=Cooling+Towel",
     "category": "Sports"
   }
 ]
