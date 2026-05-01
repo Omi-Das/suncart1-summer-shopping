@@ -64,5 +64,137 @@
     "description": "Large, absorbent beach towel with vibrant summer patterns.",
     "image": "https://i.postimg.cc/example6.png",
     "category": "Home"
+  },
+  {
+    "id": 7,
+    "name": "Flip Flops",
+    "brand": "BeachWalk",
+    "price": 8,
+    "rating": 4.3,
+    "stock": 25,
+    "description": "Comfortable flip flops for casual summer wear.",
+    "image": "https://i.postimg.cc/example7.png",
+    "category": "Footwear"
+  },
+  {
+    "id": 8,
+    "name": "Bikini Set",
+    "brand": "TropicalVibes",
+    "price": 30,
+    "rating": 4.6,
+    "stock": 5,
+    "description": "Stylish bikini set perfect for beach days.",
+    "image": "https://i.postimg.cc/example8.png",
+    "category": "Clothing"
+  },
+  {
+    "id": 9,
+    "name": "Sun Hat",
+    "brand": "ShadeMaster",
+    "price": 14,
+    "rating": 4.5,
+    "stock": 18,
+    "description": "Elegant sun hat with UV protection.",
+    "image": "https://i.postimg.cc/example9.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 10,
+    "name": "Portable Fan",
+    "brand": "CoolBreeze",
+    "price": 22,
+    "rating": 4.7,
+    "stock": 9,
+    "description": "Battery-powered portable fan for hot days.",
+    "image": "https://i.postimg.cc/example10.png",
+    "category": "Electronics"
+  },
+  {
+    "id": 11,
+    "name": "Ice Cream Maker",
+    "brand": "FrostyDelights",
+    "price": 45,
+    "rating": 4.8,
+    "stock": 4,
+    "description": "Home ice cream maker for delicious summer treats.",
+    "image": "https://i.postimg.cc/example11.png",
+    "category": "Kitchen"
+  },
+  {
+    "id": 12,
+    "name": "Beach Umbrella",
+    "brand": "SunBlock",
+    "price": 35,
+    "rating": 4.4,
+    "stock": 7,
+    "description": "Large beach umbrella for shade and protection.",
+    "image": "https://i.postimg.cc/example12.png",
+    "category": "Outdoor"
+  },
+  {
+    "id": 13,
+    "name": "Sunglasses Case",
+    "brand": "LensGuard",
+    "price": 6,
+    "rating": 4.2,
+    "stock": 30,
+    "description": "Protective case for your favorite sunglasses.",
+    "image": "https://i.postimg.cc/example13.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 14,
+    "name": "Summer Dress",
+    "brand": "BreezyWear",
+    "price": 28,
+    "rating": 4.5,
+    "stock": 11,
+    "description": "Light and airy summer dress for warm weather.",
+    "image": "https://i.postimg.cc/example14.png",
+    "category": "Clothing"
+  },
+  {
+    "id": 15,
+    "name": "Water Bottle",
+    "brand": "HydroFlow",
+    "price": 12,
+    "rating": 4.6,
+    "stock": 16,
+    "description": "Insulated water bottle to stay hydrated in the heat.",
+    "image": "https://i.postimg.cc/example15.png",
+    "category": "Sports"
+  },
+  {
+    "id": 16,
+    "name": "Beach Ball",
+    "brand": "FunInSun",
+    "price": 5,
+    "rating": 4.3,
+    "stock": 22,
+    "description": "Colorful beach ball for outdoor fun.",
+    "image": "https://i.postimg.cc/example16.png",
+    "category": "Sports"
+  },
+  {
+    "id": 17,
+    "name": "Lip Balm",
+    "brand": "MoistCare",
+    "price": 4,
+    "rating": 4.7,
+    "stock": 35,
+    "description": "SPF lip balm to protect your lips from sun damage.",
+    "image": "https://i.postimg.cc/example17.png",
+    "category": "Beauty"
+  },
+  {
+    "id": 18,
+    "name": "Cooling Towel",
+    "brand": "RefreshTech",
+    "price": 16,
+    "rating": 4.8,
+    "stock": 13,
+    "description": "Instant cooling towel for hot weather relief.",
+    "image": "https://i.postimg.cc/example18.png",
+    "category": "Sports"
   }
 ]
