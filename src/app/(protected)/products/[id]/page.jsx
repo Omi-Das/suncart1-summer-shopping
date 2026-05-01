@@ -1,7 +1,12 @@
-export default function Page({ params }) {
-  return (
-    <div>
-      <h1>Product {params.id}</h1>
-    </div>
-  );
-}
+
+
+const ProductPage = ({ params }) => {
+    return (
+        <div>
+            <h1>Product Page</h1>
+            <p>Product ID: {params.id}</p>
+        </div>
+    );
+};
+
+export default ProductPage;

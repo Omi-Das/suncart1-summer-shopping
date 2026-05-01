@@ -1,7 +1,11 @@
-export default function PopularProducts() {
-  return (
-    <section>
-      <h1>Popular Products</h1>
-    </section>
-  );
-}
+import React from 'react';
+
+const PopularProducts = () => {
+    return (
+        <div>
+            
+        </div>
+    );
+};
+
+export default PopularProducts;

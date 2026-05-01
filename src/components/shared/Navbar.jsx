@@ -1,7 +1,11 @@
-export default function Navbar() {
-  return (
-    <nav>
-      <h1>Navbar</h1>
-    </nav>
-  );
-}
+import React from 'react';
+
+const Navbar = () => {
+    return (
+        <div>
+            
+        </div>
+    );
+};
+
+export default Navbar;

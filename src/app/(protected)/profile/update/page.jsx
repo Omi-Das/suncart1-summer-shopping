@@ -1,7 +1,11 @@
-export default function Page() {
-  return (
-    <div>
-      <h1>Update Profile</h1>
-    </div>
-  );
-}
+import React from 'react';
+
+const ProfilePage = () => {
+    return (
+        <div>
+            
+        </div>
+    );
+};
+
+export default ProfilePage;

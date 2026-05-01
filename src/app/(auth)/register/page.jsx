@@ -1,7 +1,11 @@
-export default function Page() {
-  return (
-    <div>
-      <h1>Register</h1>
-    </div>
-  );
-}
+import React from 'react';
+
+const RegisterPage = () => {
+    return (
+        <div>
+            
+        </div>
+    );
+};
+
+export default RegisterPage;
