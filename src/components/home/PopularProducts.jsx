@@ -24,6 +24,7 @@ const PopularProducts = () => {
                 alt={product.name}
                 fill
                 className="object-cover"
+                unoptimized={true}
               />
             </div>
             <div className="p-4">

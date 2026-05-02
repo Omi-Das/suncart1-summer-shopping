@@ -4,7 +4,7 @@ import products from "@/data/products.json";
 
 export default function Home() {
   // Select 6 popular products
-  const popularProducts = products.slice(0, 6);
+  const popularProducts = products.slice(0, 3);
 
   return (
     <div className="space-y-12">
@@ -51,6 +51,7 @@ export default function Home() {
                   alt={product.name}
                   fill
                   className="object-cover"
+                  unoptimized={true}
                 />
               </div>
               <div className="p-4">
