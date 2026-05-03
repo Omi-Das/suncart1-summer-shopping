@@ -37,6 +37,12 @@ const LoginPage = () => {
     } finally {
       setLoading(false);
     }
+      const { data:res, error } = await authClient.signIn.email({
+    email: data.email, // required
+    password: data.password, // required
+    rememberMe: true,
+    callbackURL: "/",
+});
   };
 
   const handleGoogleSignIn = async () => {
