@@ -25,6 +25,7 @@
     "daisyui": "^5.5.19",
     "eslint": "^9",
     "eslint-config-next": "16.2.4",
+    "mongodb-memory-server": "^11.1.0",
     "tailwindcss": "^4"
   }
 }

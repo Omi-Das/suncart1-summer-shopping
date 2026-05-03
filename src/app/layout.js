@@ -1,8 +1,3 @@
-import dns from "dns";
-// Use public DNS servers for MongoDB SRV resolution if local resolver fails.
-dns.setServers(["8.8.8.8", "1.1.1.1", "9.9.9.9"]);
-
-
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/shared/Navbar";
