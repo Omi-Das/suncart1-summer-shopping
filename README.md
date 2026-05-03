@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SunCart - Summer Essentials Store
 
-## Getting Started
+SunCart is a modern summer eCommerce platform where users can browse seasonal products, view detailed information, and place orders after authentication.
 
-First, run the development server:
+## Live URL
+
+Add your deployed link here after hosting:
+
+- Live Site: `https://your-live-url.vercel.app`
+- Repository: `https://github.com/your-username/your-repo`
+
+## Purpose
+
+This project is built for a summer-themed assignment with authentication, protected product details, user profile management, and a responsive shopping experience using Next.js App Router.
+
+## Key Features
+
+- Responsive layout with persistent `Navbar` and `Footer`
+- Product listing and detailed product pages from JSON data
+- Protected product details route with login redirect and return
+- BetterAuth email/password login and registration
+- Google social login using BetterAuth provider
+- My Profile page with user name, email, and photo
+- Update profile information (name and photo URL)
+- Summer home page sections: Hero, Popular Products, Summer Care Tips, Top Brands
+- Lottie-based animated section using `@lottiefiles/dotlottie-web`
+
+## Tech Stack
+
+- Next.js (App Router)
+- React
+- Tailwind CSS
+- DaisyUI
+- BetterAuth
+- MongoDB
+- React Toastify
+
+## NPM Packages Used
+
+- `better-auth`
+- `@better-auth/mongo-adapter`
+- `mongodb`
+- `tailwindcss`
+- `daisyui`
+- `react-toastify`
+- `@lottiefiles/dotlottie-web`
+
+## Environment Variables
+
+Create a `.env` file based on `.env.example`:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cp .env.example .env
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Required variables:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- `BETTER_AUTH_SECRET`
+- `BETTER_AUTH_URL`
+- `NEXT_PUBLIC_BETTER_AUTH_URL`
+- `MONGO_URI`
+- `MONGODB_DATABASE`
+- `MONGO_URI_EMBEDDED`
+- `GOOGLE_CLIENT_ID`
+- `GOOGLE_CLIENT_SECRET`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Local Setup
 
-## Learn More
+```bash
+npm install
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Open [http://localhost:3000](http://localhost:3000).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment Notes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Deploy on Vercel or Render
+- Configure all environment variables in deployment settings
+- Since this is Next.js App Router, route reloading works without SPA fallback issues
+- Set `BETTER_AUTH_URL` and `NEXT_PUBLIC_BETTER_AUTH_URL` to your live domain after deploy

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import products from "@/data/products.json";
+import SummerLottie from "@/components/home/SummerLottie";
 
 export default function Home() {
   // Select 6 popular products
@@ -9,17 +10,17 @@ export default function Home() {
   return (
     <div className="space-y-12">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-orange-400 to-yellow-500 text-white rounded-lg overflow-hidden">
+      <section className="relative overflow-hidden rounded-lg bg-gradient-to-r from-orange-400 to-yellow-500 text-white">
         <div className="absolute inset-0 bg-black/20"></div>
-        <div className="relative px-6 py-16 md:px-12 md:py-24">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
+        <div className="relative grid items-center gap-8 px-6 py-10 md:grid-cols-2 md:px-12 md:py-14">
+          <div className="text-center md:text-left">
+            <h1 className="mb-4 text-4xl font-bold md:text-6xl">
               Summer Sale 50% OFF
             </h1>
-            <p className="text-xl md:text-2xl mb-8">
+            <p className="mb-8 text-xl md:text-2xl">
               🔥 Hot Deals on All Summer Essentials 🔥
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col justify-center gap-4 sm:flex-row md:justify-start">
               <Link
                 href="/products"
                 className="bg-white text-orange-500 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition"
@@ -31,6 +32,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <SummerLottie />
         </div>
       </section>
 

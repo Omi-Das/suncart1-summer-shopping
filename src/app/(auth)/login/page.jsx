@@ -11,6 +11,10 @@ const LoginPage = () => {
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
   const router = useRouter();
+  const redirect =
+    typeof window === 'undefined'
+      ? '/'
+      : new URLSearchParams(window.location.search).get('redirect') || '/';
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -26,7 +30,7 @@ const LoginPage = () => {
         toast.error(result.error.message || 'Login failed');
       } else {
         toast.success('Login successful!');
-        router.push('/');
+        router.push(redirect);
       }
     } catch (error) {
       toast.error('An error occurred during login');
@@ -44,8 +48,7 @@ const LoginPage = () => {
       if (result.error) {
         toast.error(result.error.message || 'Google sign-in failed');
       } else {
-        toast.success('Google sign-in successful!');
-        router.push('/');
+        toast.success('Google sign-in successful! Redirecting...');
       }
     } catch (error) {
       toast.error('An error occurred during Google sign-in');
@@ -57,7 +60,7 @@ const LoginPage = () => {
       <div className="max-w-md w-full space-y-8">
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-            Sign in to your account
+            Login to SunCart
           </h2>
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleLogin}>
