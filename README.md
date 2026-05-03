@@ -4,11 +4,6 @@ SunCart is a modern summer eCommerce platform where users can browse seasonal pr
 
 ## Live URL
 
-Add your deployed link here after hosting:
-
-- Live Site: `https://your-live-url.vercel.app`
-- Repository: `https://github.com/your-username/your-repo`
-
 ## Purpose
 
 This project is built for a summer-themed assignment with authentication, protected product details, user profile management, and a responsive shopping experience using Next.js App Router.
@@ -23,7 +18,7 @@ This project is built for a summer-themed assignment with authentication, protec
 - My Profile page with user name, email, and photo
 - Update profile information (name and photo URL)
 - Summer home page sections: Hero, Popular Products, Summer Care Tips, Top Brands
-- Lottie-based animated section using `@lottiefiles/dotlottie-web`
+-Animated CSS used
 
 ## Tech Stack
 
@@ -44,6 +39,9 @@ This project is built for a summer-themed assignment with authentication, protec
 - `daisyui`
 - `react-toastify`
 - `@lottiefiles/dotlottie-web`
+
+
+---------------------------
 
 ## Environment Variables
 

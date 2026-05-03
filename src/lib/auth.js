@@ -1,3 +1,4 @@
+
 // Server Config
 import dns from "dns";
 // Use public DNS servers for MongoDB SRV resolution if local resolver fails.
@@ -37,7 +38,7 @@ async function resolveMongoResources() {
   let dbName;
 
   if (isEmbeddedMongo()) {
-    const devDb = process.env.MONGODB_DATABASE || "suncart";
+    const devDb = process.env.MONGODB_DATABASE || dbName;
     if (!globalForMongo.__betterAuthMongoMemoryReplSet) {
       const { MongoMemoryReplSet } = await import("mongodb-memory-server");
       globalForMongo.__betterAuthMongoMemoryReplSet =
@@ -101,6 +102,8 @@ async function resolveMongoResources() {
 }
 
 const { client, db } = await resolveMongoResources();
+console.log("Connected to Database:", db.databaseName);
+
 
 export const auth = betterAuth({
   database: mongodbAdapter(db, {
